@@ -1,0 +1,11 @@
+{
+  "name": "release-plugin",
+  "version": "1.0.0",
+  "description": "Release workflow skills for Node.js projects: draft changelog entries, bump versions, create git tags, and publish GitHub releases. Provides four standalone skills and one orchestrator that chains them.",
+  "skills": [
+    "skills/release",
+    "skills/changelog-entry",
+    "skills/tag-version",
+    "skills/publish"
+  ]
+}
