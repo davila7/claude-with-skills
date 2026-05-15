@@ -10,7 +10,7 @@ git clone https://github.com/davila7/claude-with-skills.git
 cd claude-with-skills
 
 # 2. Install the hello-skill example into your personal skills directory
-bash scripts/install-examples.sh 01-basic/lesson-01-anatomy/examples/hello-skill personal
+bash scripts/install-examples.sh src/content/docs/01-basic/lesson-01-anatomy/examples/hello-skill personal
 
 # 3. Open Claude Code and invoke the skill
 claude
@@ -24,10 +24,17 @@ That is it. You have just installed and invoked your first Agent Skill.
 
 | Level | Section | Outcome |
 |---|---|---|
-| Introduction | [00-introduction/](00-introduction/README.md) | Understand what skills are, how they load, and how they compare to CLAUDE.md, subagents, and MCP |
-| Basic | [01-basic/](01-basic/README.md) | Write a skill from scratch, add frontmatter, invoke it by name and with arguments |
-| Intermediate | [02-intermediate/](02-intermediate/README.md) | Use supporting files, dynamic context injection, forked context, and hooks |
-| Advanced | [03-advanced/](03-advanced/README.md) | Build agent-driven skills, headless pipelines, plugin packaging, and cross-tool portability |
+| Introduction | [00-introduction/](src/content/docs/00-introduction/index.md) | Understand what skills are, how they load, and how they compare to CLAUDE.md, subagents, and MCP |
+| Basic | [01-basic/](src/content/docs/01-basic/index.md) | Write a skill from scratch, add frontmatter, invoke it by name and with arguments |
+| Intermediate | [02-intermediate/](src/content/docs/02-intermediate/index.md) | Use supporting files, dynamic context injection, forked context, and hooks |
+| Advanced | [03-advanced/](src/content/docs/03-advanced/index.md) | Build agent-driven skills, headless pipelines, plugin packaging, and cross-tool portability |
+
+You can also browse the course as a **website** built with [Astro Starlight](https://starlight.astro.build):
+
+```bash
+npm install
+npm run dev    # then open http://localhost:4321/claude-with-skills/
+```
 
 ## How to run examples
 
@@ -97,9 +104,9 @@ Dynamic context injection with `` !`command` `` and `${CLAUDE_SKILL_DIR}` are al
 
 ## Reference
 
-- [Frontmatter cheatsheet](reference/frontmatter-cheatsheet.md) — every field, its type, and an example value
-- [Headless mode guide](reference/headless-mode.md) — flags, patterns, piping, and CI integration
-- [Troubleshooting](reference/troubleshooting.md) — skill not found, invocation not working, context issues
+- [Frontmatter cheatsheet](src/content/docs/reference/frontmatter-cheatsheet.md) — every field, its type, and an example value
+- [Headless mode guide](src/content/docs/reference/headless-mode.md) — flags, patterns, piping, and CI integration
+- [Troubleshooting](src/content/docs/reference/troubleshooting.md) — skill not found, invocation not working, context issues
 
 ## Contributing
 

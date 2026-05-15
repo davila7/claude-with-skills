@@ -11,8 +11,8 @@
 #   scope      Where to install: "personal" or "project"
 #
 # Examples:
-#   bash scripts/install-examples.sh examples/hello-skill personal
-#   bash scripts/install-examples.sh examples/git-commit-helper project
+#   bash scripts/install-examples.sh src/content/docs/01-basic/lesson-01-anatomy/examples/hello-skill personal
+#   bash scripts/install-examples.sh src/content/docs/01-basic/lesson-03-repetitive-tasks/examples/commit-message project
 
 set -euo pipefail
 

@@ -1,0 +1,50 @@
+---
+title: Claude with Skills
+description: A progressive course teaching Agent Skills for Claude Code, from anatomy to advanced orchestration patterns.
+template: splash
+hero:
+  tagline: Stop pasting the same instructions into Claude. Start shipping reusable, portable Agent Skills.
+  actions:
+    - text: Start with the Introduction
+      link: /00-introduction/
+      icon: right-arrow
+      variant: primary
+    - text: View on GitHub
+      link: https://github.com/davila7/claude-with-skills
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Learning path
+
+<CardGrid stagger>
+  <Card title="Introduction" icon="open-book">
+    What skills are, how they load, and how they compare to CLAUDE.md, subagents, and MCP.
+
+    [Start →](/00-introduction/)
+  </Card>
+  <Card title="Basic" icon="seti:default">
+    Write a skill from scratch, add frontmatter, invoke it by name and with arguments.
+
+    [Open Basic →](/01-basic/)
+  </Card>
+  <Card title="Intermediate" icon="setting">
+    Supporting files, dynamic context injection, forked context, and hooks.
+
+    [Open Intermediate →](/02-intermediate/)
+  </Card>
+  <Card title="Advanced" icon="rocket">
+    Agent-driven skills, headless pipelines, plugin packaging, and cross-tool portability.
+
+    [Open Advanced →](/03-advanced/)
+  </Card>
+</CardGrid>
+
+## Reference
+
+- [Frontmatter cheatsheet](/reference/frontmatter-cheatsheet/) — every field, its type, and an example value
+- [Substitution variables](/reference/substitution-variables/) — `$ARGUMENTS`, `$N`, `$name`, `${CLAUDE_SKILL_DIR}`
+- [Invocation matrix](/reference/invocation-matrix/) — how skills get invoked
+- [Headless mode](/reference/headless-mode/) — flags, patterns, piping, CI
+- [Troubleshooting](/reference/troubleshooting/) — skill not found, budget overflow, `/doctor`
