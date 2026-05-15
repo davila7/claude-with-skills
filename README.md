@@ -33,7 +33,7 @@ You can also browse the course as a **website** built with [Astro Starlight](htt
 
 ```bash
 npm install
-npm run dev    # then open http://localhost:4321/claude-with-skills/
+npm run dev    # then open http://localhost:4321/
 ```
 
 ## How to run examples
