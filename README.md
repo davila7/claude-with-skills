@@ -2,7 +2,9 @@
 
 <img width="1055" height="564" alt="Screenshot 2026-05-15 at 09 53 22" src="https://github.com/user-attachments/assets/4c0ba288-e1c5-4299-b5f6-57a3c9c982b4" />
 
-A progressive course for developers who want to stop pasting the same instructions into Claude and start shipping reusable, portable Agent Skills. Whether you are tired of re-explaining your release process every Monday, migrating existing slash commands to the new Skills format, building a plugin for your team, or just learning what Claude Code can do — this repo takes you from your first `SKILL.md` to advanced patterns like forked context, dynamic injection, and headless automation.
+A progressive course for developers who want to stop pasting the same instructions into Claude and start shipping reusable, portable Agent Skills. 
+
+Whether you are tired of re-explaining your release process every Monday, migrating existing slash commands to the new Skills format, building a plugin for your team, or just learning what Claude Code can do — this repo takes you from your first `SKILL.md` to advanced patterns like forked context, dynamic injection, and headless automation.
 
 ## Quickstart
 
