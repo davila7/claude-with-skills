@@ -2,8 +2,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  site: 'https://davila7.github.io',
-  base: '/claude-with-skills',
+  site: 'https://claude-with-skills.vercel.app',
   integrations: [
     starlight({
       title: 'Claude with Skills',

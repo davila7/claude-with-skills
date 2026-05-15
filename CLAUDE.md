@@ -71,7 +71,7 @@ claude -p "/hello-skill"
 
 ```bash
 npm install        # one-time
-npm run dev        # http://localhost:4321/claude-with-skills/
+npm run dev        # http://localhost:4321/
 npm run build      # static output in dist/
 ```
 
