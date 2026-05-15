@@ -5,3 +5,9 @@ __pycache__/
 *.log
 node_modules/
 .env
+
+# Astro / Starlight build artifacts
+dist/
+.astro/
+.vercel/
+.output/
